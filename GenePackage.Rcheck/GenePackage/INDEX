@@ -1,0 +1,18 @@
+createGene              Create a Gene Object
+gcContent               Calculate the GC Content of a Gene Sequence
+Gene-class              Gene Class
+getSymbol               Get the Symbol of a Gene Object
+lengthProduct           Get the Length of the Gene Product
+LongNonCodingRNA-class
+                        Long Non-Coding RNA Gene Class
+MicroRNA-class          MicroRNA Gene Class
+ProteinCodingGene-class
+                        Protein-Coding Gene Class
+setChromosome           Set the Chromosome of a Gene Object
+setDescription          Set the Description of a Gene Object
+setEnd                  Set the End Position of a Gene Object
+setName                 Set the Name of a Gene Object
+setStart                Set the Start Position of a Gene Object
+setStrand               Set the Strand of a Gene Object
+setSymbol               Set the Symbol of a Gene Object
+Transcript-class        Transcript Class

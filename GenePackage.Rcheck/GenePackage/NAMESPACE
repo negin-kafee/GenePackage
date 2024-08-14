@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+export(getSymbol)
+
+importFrom("methods", "new", "setClass", "setMethod", "setGeneric")

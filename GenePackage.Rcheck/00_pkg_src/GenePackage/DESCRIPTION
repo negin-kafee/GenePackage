@@ -1,0 +1,17 @@
+Package: GenePackage
+Type: Package
+Title: A Package for Gene Objects
+Version: 0.1.0
+Authors@R: person("Negin", "Kafee", email = "negin.kafee@yahoo.com", role = c("aut", "cre"))
+Description: This package provides S4 classes for different gene types.
+Imports: methods
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+biocViews: Genomics, Transcriptomics
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2024-08-14 20:30:44 UTC; neginkafee
+Author: Negin Kafee [aut, cre]
+Maintainer: Negin Kafee <negin.kafee@yahoo.com>
