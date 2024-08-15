@@ -4,7 +4,7 @@
 * R was compiled by
     Apple clang version 14.0.0 (clang-1400.0.29.202)
     GNU Fortran (GCC) 12.2.0
-* running under: macOS Sonoma 14.5
+* running under: macOS Sonoma 14.6.1
 * using session charset: UTF-8
 * checking for file ‘GenePackage/DESCRIPTION’ ... OK
 * checking extension type ... Package
@@ -21,7 +21,6 @@
 * checking whether package ‘GenePackage’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -48,11 +47,10 @@
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking installed files from ‘inst/doc’ ... OK
-* checking files in ‘vignettes’ ... OK
 * checking examples ... OK
-* checking for unstated dependencies in vignettes ... OK
-* checking package vignettes ... OK
-* checking re-building of vignette outputs ... OK
+* checking for unstated dependencies in ‘tests’ ... OK
+* checking tests ... OK
+  Running ‘testthat.R’
 * checking PDF version of manual ... OK
 * DONE
 Status: OK

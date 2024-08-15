@@ -1,0 +1,11 @@
+.git
+.gitignore
+vignettes/.gitignore
+..Rcheck
+^doc$
+^Meta$
+.git
+.gitignore
+vignettes/.gitignore
+GenePackage.Rcheck
+^README\.Rmd$

@@ -3,21 +3,22 @@ Type: Package
 Title: A Package for Gene Objects
 Description: This package provides S4 classes and methods for representing different types of genes, including protein-coding genes, long non-coding RNAs, microRNAs, and transcripts. It includes functionalities for accessing gene attributes, calculating gene product lengths, and determining GC content.
 Version: 0.1.0
-Authors@R: person("Negin", "Kafee", email = "negin.kafee@yahoo.com", role = c("aut", "cre"))
-Imports: 
-    methods,
-    GenomicRanges,
-    IRanges
+Authors@R: person(given = "Negin", 
+                  family = "Kafee", 
+                  email = "negin.kafee@yahoo.com", 
+                  role = c("aut", "cre"), 
+                  comment = c(ORCID = "0009-0004-9006-5234"))
+Author: Negin Kafee [aut, cre]
+Maintainer: Negin Kafee <negin.kafee@yahoo.com>
 License: GPL-3
 Encoding: UTF-8
 LazyData: false
 RoxygenNote: 7.3.2
-biocViews: Genomics, Transcriptomics
-Suggests: 
-    knitr,
+biocViews: Genomics, Transcriptomics, GeneExpression, GeneRegulation, GenomeAnnotation
+Imports:
+    methods
+Suggests:
     rmarkdown,
     testthat (>= 3.0.0)
-VignetteBuilder: knitr
-Config/testthat/edition: 3
 URL: https://github.com/negin-kafee/GenePackage
 BugReports: https://github.com/negin-kafee/GenePackage/issues

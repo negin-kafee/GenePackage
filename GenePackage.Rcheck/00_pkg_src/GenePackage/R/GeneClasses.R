@@ -15,16 +15,17 @@
 #' @slot strand A character string representing the DNA strand.
 #' @export
 setClass("Gene",
-         slots = list(
-           ID = "character",
-           symbol = "character",
-           name = "character",
-           description = "character",
-           chromosome = "character",
-           start = "numeric",
-           end = "numeric",
-           strand = "character"
-         ))
+  slots = list(
+    ID = "character",
+    symbol = "character",
+    name = "character",
+    description = "character",
+    chromosome = "character",
+    start = "numeric",
+    end = "numeric",
+    strand = "character"
+  )
+)
 
 #' Get the Symbol of a Gene Object
 #'
@@ -188,12 +189,13 @@ setMethod("setStrand", "Gene", function(object, value) {
 #' @slot exonCount An integer representing the number of exons.
 #' @export
 setClass("ProteinCodingGene",
-         contains = "Gene",
-         slots = list(
-           proteinID = "character",
-           proteinSequence = "character",
-           exonCount = "integer"
-         ))
+  contains = "Gene",
+  slots = list(
+    proteinID = "character",
+    proteinSequence = "character",
+    exonCount = "integer"
+  )
+)
 
 # Long Non-Coding RNA Gene Class Definition
 # This class defines a long non-coding RNA gene, inheriting from the Gene class.
@@ -206,11 +208,12 @@ setClass("ProteinCodingGene",
 #' @slot RNASequence A character string representing the RNA sequence.
 #' @export
 setClass("LongNonCodingRNA",
-         contains = "Gene",
-         slots = list(
-           lncRNAID = "character",
-           RNASequence = "character"
-         ))
+  contains = "Gene",
+  slots = list(
+    lncRNAID = "character",
+    RNASequence = "character"
+  )
+)
 
 # MicroRNA Gene Class Definition
 # This class defines a microRNA gene, inheriting from the Gene class.
@@ -223,11 +226,12 @@ setClass("LongNonCodingRNA",
 #' @slot seedSequence A character string representing the miRNA seed sequence.
 #' @export
 setClass("MicroRNA",
-         contains = "Gene",
-         slots = list(
-           miRNAID = "character",
-           seedSequence = "character"
-         ))
+  contains = "Gene",
+  slots = list(
+    miRNAID = "character",
+    seedSequence = "character"
+  )
+)
 # Transcript Class Definition
 # This class defines a transcript, inheriting from the Gene class.
 
@@ -239,11 +243,12 @@ setClass("MicroRNA",
 #' @slot sequence A character string representing the transcript sequence.
 #' @export
 setClass("Transcript",
-         contains = "Gene",
-         slots = list(
-           transcriptID = "character",
-           sequence = "character"
-         ))
+  contains = "Gene",
+  slots = list(
+    transcriptID = "character",
+    sequence = "character"
+  )
+)
 
 #' Create a Gene Object
 #'
@@ -252,10 +257,12 @@ setClass("Transcript",
 #' @param ... Additional parameters for the gene object.
 #' @return An object of the specified gene class.
 #' @examples
-#' gene <- createGene("protein_coding", ID = "ENSG000001", symbol = "TP53", 
-#'                    name = "Tumor protein p53", description = "Plays a role in cell cycle regulation", 
-#'                    chromosome = "17", start = 7565097, end = 7590856, strand = "+", 
-#'                    proteinID = "NP_000537", proteinSequence = "MDM2", exonCount = 11L)
+#' gene <- createGene("protein_coding",
+#'   ID = "ENSG000001", symbol = "TP53",
+#'   name = "Tumor protein p53", description = "Plays a role in cell cycle regulation",
+#'   chromosome = "17", start = 7565097, end = 7590856, strand = "+",
+#'   proteinID = "NP_000537", proteinSequence = "MDM2", exonCount = 11L
+#' )
 #' getSymbol(gene)
 #' lengthProduct(gene)
 #' gcContent(gene)
@@ -280,8 +287,10 @@ createGene <- function(type, ...) {
 #' @param object An object of a specific gene class.
 #' @return The length of the gene product.
 #' @examples
-#' gene <- createGene("protein_coding", ID = "ENSG000001", symbol = "TP53", 
-#'                    proteinSequence = "MDM2")
+#' gene <- createGene("protein_coding",
+#'   ID = "ENSG000001", symbol = "TP53",
+#'   proteinSequence = "MDM2"
+#' )
 #' lengthProduct(gene)
 #' @export
 #' @aliases lengthProduct lengthProduct,ProteinCodingGene-method lengthProduct,LongNonCodingRNA-method lengthProduct,MicroRNA-method lengthProduct,Transcript-method
@@ -314,8 +323,10 @@ setMethod("lengthProduct", "Transcript", function(object) {
 #' @param object An object of class ProteinCodingGene or Transcript.
 #' @return The GC content as a percentage.
 #' @examples
-#' gene <- createGene("protein_coding", ID = "ENSG000001", symbol = "TP53", 
-#'                    proteinSequence = "MDM2")
+#' gene <- createGene("protein_coding",
+#'   ID = "ENSG000001", symbol = "TP53",
+#'   proteinSequence = "MDM2"
+#' )
 #' gcContent(gene)
 #' transcript <- createGene("transcript", ID = "ENST000002", sequence = "ATGCATGC")
 #' gcContent(transcript)

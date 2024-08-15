@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.20)  14 AUG 2024 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.20)  15 AUG 2024 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,8 +347,8 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box58
 )
-(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpcedyea/Rd2pdfeddd
-163e63a8/Rd2.aux)
+(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpf1pKk6/Rd2pdf2803
+297b748f/Rd2.aux)
 \openout1 = `Rd2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -386,68 +386,70 @@ LaTeX Font Info:    ... okay on input line 8.
 )
 Package hyperref Info: Link coloring ON on input line 8.
 
-(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpcedyea/Rd2pdfeddd
-163e63a8/Rd2.out)
-(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpcedyea/Rd2pdfeddd
-163e63a8/Rd2.out)
+(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpf1pKk6/Rd2pdf2803
+297b748f/Rd2.out)
+(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpf1pKk6/Rd2pdf2803
+297b748f/Rd2.out)
 \@outlinefile=\write4
 \openout4 = `Rd2.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 31
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 23
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 31.
+(Font)              scaled to size 10.0pt on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
-(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpcedyea/Rd2pdfeddd
-163e63a8/Rd2.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 1.
-
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 31
+.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
-\tf@toc=\write5
-\openout5 = `Rd2.toc'.
-
- [1
+)
+(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpf1pKk6/Rd2pdf2803
+297b748f/Rd2.toc [1
 
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2024
-/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
-LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 59.
+/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}])
+\tf@toc=\write5
+\openout5 = `Rd2.toc'.
 
-Overfull \hbox (11.18274pt too wide) in paragraph at lines 61--61
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 9.0pt on input line 61.
+
+Overfull \hbox (11.18274pt too wide) in paragraph at lines 63--63
  []                   \T1/zi4/m/n/9 name = "Tumor protein p53", description = "
 Plays a role in cell cycle regulation",[] 
  []
 
 [2]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1
-39.
+41.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 139.
+(Font)              scaled to size 10.0pt on input line 141.
 
 [3{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}]
 [4] [5] [6] [7] [8]
-(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpcedyea/Rd2pdfeddd
-163e63a8/Rd2.ind [9]
+(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpf1pKk6/Rd2pdf2803
+297b748f/Rd2.ind [9]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 8.
@@ -463,8 +465,8 @@ Overfull \hbox (0.8567pt too wide) in paragraph at lines 24--26
 
 
 ])
-(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpcedyea/Rd2pdfeddd
-163e63a8/Rd2.aux)
+(/private/var/folders/_f/pzw0h1h16lg1m3kc8x3c0fp80000gn/T/Rtmpf1pKk6/Rd2pdf2803
+297b748f/Rd2.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -483,16 +485,16 @@ Here is how much of TeX's memory you used:
  32688 multiletter control sequences out of 15000+600000
  591911 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,5n,95p,296b,735s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,6n,95p,396b,735s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/inconsolata/Inconsolat
 a-zi4r.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loc
 al/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (10 pages, 93081 bytes).
+Output written on Rd2.pdf (10 pages, 93869 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
+ 324 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
  125 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
