@@ -1,0 +1,3 @@
+# Ignore HTML files in language statistics
+*.html linguist-vendored
+*.css linguist-vendored
